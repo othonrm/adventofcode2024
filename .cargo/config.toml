@@ -1,0 +1,5 @@
+[build]
+rustflags = ["-Awarnings"]
+
+[env]
+RUST_BACKTRACE = "1"

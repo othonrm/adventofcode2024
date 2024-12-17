@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs", // Use CommonJS module system
+    "target": "es2023", // Target modern JavaScript (ES6)
+    "moduleResolution": "node", // Resolve modules like Node.js
+    "outDir": "dist", // Output compiled JS files to `dist` directory
+    "sourceMap": true // Generate source maps for debugging
+  },
+  "include": ["src/**/*.ts"], // Include all files in the `src` folder
+  "exclude": ["node_modules"] // Exclude `node_modules` folder
+}
