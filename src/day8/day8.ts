@@ -90,16 +90,3 @@ const run = (fileName) => {
 		console.log("SOMETHING IS WRONG");
 	}
 })().then(() => process.exit());
-
-// 156121079426 - too low
-// 92010392340
-// 69931494569
-// 30460765354
-// 632216504484 - too low
-// Formula is broken, giving different answers
-// 620655456634
-// Number of possibilities was being calculated wrongly :D
-// options ^ slots
-
-// Part 2
-// straight correct, not that hard (but it took almost 3 minutes to run lol)

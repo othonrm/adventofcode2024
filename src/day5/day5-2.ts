@@ -62,7 +62,7 @@ const run = (fileName) => {
 const sampleResult = run(sampleFile);
 const sampleExpected = 123;
 
-console.log("Day 5 - pt 1 (correct reports): ");
+console.log("Day 5 - pt 2 (correct reports): ");
 console.log("sample: ", sampleResult);
 console.log("input: ", run(inputFile));
 
