@@ -2,7 +2,8 @@ export const getFilePath = (day: number, type: "input" | "sample") =>
 	`./src/day${day}/day${day}-${type}.txt`;
 
 export const clearConsole = () => {
-	console.log("\x1b[2J");
+	// console.log("\x1b[2J");
+	console.clear();
 };
 
 export const waitDelay = async (delayMs: number) => {
